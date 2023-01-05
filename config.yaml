@@ -1,0 +1,8 @@
+apiVersion: examples.config.kubernetes.io/v1beta1
+kind: cloudproxy
+metadata:
+  name: cloudproxy
+  annotations:
+    config.kubernetes.io/function: |-
+      container:
+        image: europe-west3-docker.pkg.dev/treyd-devops-test-2/devops-test/kustomize-transformer-cloud-sql-proxy:main
