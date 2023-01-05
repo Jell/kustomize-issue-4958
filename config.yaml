@@ -5,4 +5,4 @@ metadata:
   annotations:
     config.kubernetes.io/function: |-
       container:
-        image: europe-west3-docker.pkg.dev/treyd-devops-test-2/devops-test/kustomize-transformer-cloud-sql-proxy:main
+        image: europe-west3-docker.pkg.dev/devops-test/devops-test/kustomize-transformer-cloud-sql-proxy:main
